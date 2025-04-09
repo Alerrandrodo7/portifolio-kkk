@@ -1,23 +1,191 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>meu portifolio</title>
+    <title>Meu portfólio</title>
 </head>
+
 <body>
-<img src="imagens/download (1).jpeg" alt="avatar do alerrandro" srcset="">  
-<p>Eu sou alerrandro_</p>
-<h1>estudante do ensino medio</h1>
-<p>Eu sou estudante do ensino medio e venho apresenta meu portofolio a voces</p>
-<p>Minha habilidades</p>
-<div>
-    <p>moto</p>
-    <p>skate</p>
-    <p>correr</p>
-    <p>scratch</p>
-    
-</div>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar do alerrandro_" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Alerrandro_</p>
+        <h1>Eu aprendo progamação</h1>
+        <p>Sou estudante do ensino medio</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="" class="" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Todos contra o cancer</h5>
+                        <p class="card-text">Este projeto é uma página web que apresenta uma associação de combate ao cancer
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Decidindo o Futuro: Uma Jornada Interativa sobre a Inteligência
+                            Artificial</h5>
+                        <p class="card-text">Este projeto é uma campanha q ajuda as pessoas com cancer.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">combate ao cancer
+                        </h5>
+                        <p class="card-text"> Esse projeto eu querohorientar mais as pessoas sobre o cancer e ajudar elas a comabater o cancer
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>A pesquisa gerando conhecimento e salvando vidas
+                        A cura do câncer também está nas pesquisas. Mas, para isso, é necessário superar muitos desafios, entre eles: financiamento, conscientização, regulação e incentivo à produção científica. Os pesquisadores atribuem aos progressos notáveis a avanços em áreas como pesquisa, prevenção, detecção, diagnóstico e tratamento do câncer. Além disso, eles ressaltam a revolução ocorrida nas terapias imunológicas, que, juntamente com a quimioterapia e a radioterapia, contribuem para prolongar a vida dos pacientes.
+                    </p>
+                    <img src="img/projeto-1.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://femascheti.github.io/minhas-leituras/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/femascheti/minhas-leituras">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto consiste em uma aplicação web interativa, desenvolvida com HTML, CSS, e JavaScript, que
+                        simula uma experiência narrativa centrada no tema da Inteligência Artificial. O objetivo é
+                        engajar os jogadores em um cenário fictício que aborda o avanço da IA e suas possíveis
+                        consequências para a humanidade, destacando a importância da reflexão ética sobre a tecnologia.
+                    </p>
+                    O impacto da pesquisa na luta contra o câncer
+                    Atualmente, o Brasil participa apenas de 2% dos estudos, globalmente. Somando os demais países, a América Latina participa em apenas 5% dos ensaios oncológicos em curso, e 90% dos ensaios clínicos que se realizam na região são financiados pela indústria farmacêutica. A indústria desenvolve pesquisas importantes, mas não são suficientes, além do fato de muitas delas terem objetivos diferentes das que realmente precisamos realizar.
+                    Os ensaios clínicos podem servir para um melhor aproveitamento do tratamento médico, mantendo a integridade e a qualidade de vida dos pacientes durante este período tão sensível. Sem essa participação qualificada, nos arriscamos a ver novos medicamentos sendo introduzidos em nosso país sem que os oncologistas tenham qualquer experiência dos impactos na sua efetiva utilização.
+
+                    <p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://femascheti.github.io/tecnicas-computacionais-refletindo-sobre-ia/">Ver projeto ao
+                        vivo</a>
+                    <a href="https://github.com/femascheti/tecnicas-computacionais-refletindo-sobre-ia">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Todos contra o cancer</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Além da importância das medidas de prevenção, este período de mobilização internacional contra o câncer de mama e do colo de útero também coloca em foco as pesquisas científicas que tornam possível ampliar o acesso a novas terapias, melhorar a qualidade de vida e aumentar a sobrevida dos pacientes. Atualmente, doze projetos de pesquisa e extensão recebem fomento da Fundação Araucária no Paraná.
+
+                        A pesquisadora Daniela Fiori Gradia coordena o estudo “Identificação das redes regulatórias mediadas pelo receptor associado à resistência ao  tratamento com Tamoxifeno (EphA2), em câncer de mama”. A professora de Genética da Universidade Federal do Paraná (UFPR) explica que entre os subtipos de câncer de mama, um problema bastante incidente é a aquisição de resistência ao tratamento.
+                        
+                        “Nem todos os casos de câncer de mama são iguais e nas células tumorais onde há muita expressão de estrogênio a terapia com a droga chamada tamoxifeno tem sido bem eficiente para a maioria dos casos. Mas alguns tumores desenvolvem a capacidade de resistir a ação desta droga, tornando o tratamento ineficaz”, comenta.
+                        
+                        Buscando entender este mecanismo o grupo de pesquisadores tem estudado uma proteína que é muito importante na via metabólica do estrogênio, ela é chamada EphA2. O Tamoxifeno age impedindo o crescimento dos tumores que apresentam grande quantidade de estrogênio. São tratadas células de câncer de mama de modo a impedir a produção desta proteína que é importante na via do estrogênio.
+                        
+                        “Nosso objetivo é impedir a produção desta proteína em células tumorais e avaliar o comportamento destas células na presença e na ausência do tamoxifeno. Tentamos identificar outras moléculas importantes nesta via que possam ser usadas no futuro como alvos alternativos no tratamento do câncer de mama e em casos de resistência ao tamoxifeno”, destaca Daniela Gradia.
+                        
+                        O projeto está na sua fase inicial, com a análise de dados de pacientes em relação ao perfil de proteínas que são expressas em diferentes grupos. Com a identificação de novos candidatos a alvo, há possibilidade do desenvolvimento de outros fármacos que auxiliem no tratamento, mesmo em casos de tumores resistentes ao Tamoxifeno.
+                        
+                        De acordo com o Instituto Nacional do Câncer (Inca), o câncer de mama na população feminina é o tipo mais frequente (excluindo câncer de pele não melanoma). São estimados 3.650 novos casos a cada ano no Paraná. Além do alerta quando aos cuidados e fatores de risco, algumas pesquisas estudam o fator da predisposição ao câncer. É o caso do projeto "Análise de SNP-LncRNAs como potenciais marcadores de predisposição ao desenvolvimento de câncer de mama". O objetivo é procurar na parte do DNA, que no passado era considerado como DNA lixo, pequenas mudanças no material genético e que aumentam a chance de uma mulher desenvolver câncer de mama.
+                        
+                        “Essas variações no DNA, quando analisadas isoladamente, geralmente influenciam pouco na predisposição. Porém, nosso projeto já identificou algumas variantes mais comuns em algumas mulheres que desenvolveram câncer de mama e agora queremos estudar o impacto de analisar muitas alterações conjuntas”, explica a coordenadora do projeto Jaqueline Carvalho de Oliveira e professora de Genética da UFPR.
+                        
+                        O grupo de pesquisadores pretente reanalisar bancos de dados públicos para identificar partes de DNA associados com a suscetibilidade ao desenvolvimento de câncer de mama. “Para que nesta análise em grupo, a gente consiga realmente identificar mulheres que têm maior chance de desenvolver o tumor, e isso ajude em um rastreamento mais efetivo para o diagnóstico precoce”, observa a pesquisadora.
+                        
+                        O projeto está em nível de pesquisa básica. Os pesquisadores esperam, a partir destas informações, entender melhor a doença e, no futuro, desenvolver novos marcadores predisposição ao desenvolvimento de câncer de mama.
+                        
+                        As duas pesquisas acontecem no laboratório de Citogenética Humana e Oncogenética da UFPR, que atua na pesquisa do câncer de mama há mais de 30 anos.
+                        
+                        Prevenção – Além de pesquisas para o avanço do tratamento e diagnóstico precoce de câncer, as universidades também recebem incentivo da Fundação Araucária para projetos de extensão com ações junto à comunidade na prevenção ao câncer de mama e de colo de útero. O câncer uterino é o quarto tipo de câncer mais frequente entre as mulhetes. São estimados 790 casos novos casos ao ano no Paraná.
+                        
+                        A professora da Universidade Estadual de Ponta Grossa (UEPG), Ednéia Peres Machado, coordena um projeto de empoderamento de mulheres por meio da prevenção ao câncer de colo do útero. São ações de incentivo à formação de lideranças comunitárias em regiões de bolsões de pobreza na prevenção contra o câncer, à realização de consulta médica e realização de exames  de Papanicolau, além de ações de prevenção contra o vírus HPV junto a crianças de escolas públicas.
+                        
+                        “Além dos professores do projeto a equipe conta com uma psicóloga e um biólogo, acadêmicos de enfermagem e as enfermeiras das unidades básicas de saúde que nos dão um importante apoio e onde são feitas as palestras. Levamos também mulheres que tiveram câncer, que fazem parte da Rede Feminina de Combate ao Câncer, para relatar a experiência delas e falar da importância da prevenção”, conta a coordenadora.
+                        
+                        O projeto trabalha com duas escolas onde já foram sensibilizadas cerca de duas mil crianças para a vacinação contra o HPV. Em parceria com a Secretaria Municipal da Saúde de Ponta Grossa a primeira dose foi aplicada em maio e em novembro será a segunda dose. A equipe também desenvolveu uma cartilha sobre a importância da vacinação e alguns alunos também foram capacitados para serem disceminadores na escola e em uma página criada pela equipe nas redes sociais em que desenvolvem ações com vídeos sobre a prevenção ao HPV.
+                        
+                        “A universidade quer estar cada vez mais próxima da população e estas ações de combate ao câncer são uma importante forma de cumprir o nosso papel social, apoiando na resolução de problemas cotidianos que a comunidade tem”, ressalta a professora Ednéia Machado.
+                        
+                        </p>
+                    <img src="" alt="" class="">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/projects/951732825/">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Fernanda Mascheti</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
